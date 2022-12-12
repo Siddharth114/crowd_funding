@@ -27,7 +27,7 @@ const address='0xabc'
       title={address ? 'Create a Campaign' : 'Connect'}
       styles={address? 'bg-[#1dc071]' :'bg-[#8c6dfd]'}
       handleClick={()=>{
-        if(addres)navigate('create-campaign')
+        if(address)navigate('create-campaign')
         else 'connect()' 
       }}
       />
@@ -77,7 +77,7 @@ const address='0xabc'
       title={address ? 'Create a Campaign' : 'Connect'}
       styles={address? 'bg-[#1dc071]' :'bg-[#8c6dfd]'}
       handleClick={()=>{
-        if(addres)navigate('create-campaign')
+        if(address) navigate('create-campaign')
         else 'connect()' 
       }}
       />
