@@ -89,12 +89,12 @@ const CreateCampaign = () => {
           </h4>
         </div>
         <div className="flex flex-wrap gap-[40px]">
-          <FormField
+          <FormField 
             labelName="Goal *"
             placeholder="ETH 0.50"
             inputType="text"
             value={form.target}
-            handleChange={(e) => handleFormFieldChange("target", e)}
+            handleChange={(e) => handleFormFieldChange('target', e)}
           />
           <FormField
             labelName="End Date *"
